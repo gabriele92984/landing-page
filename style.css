@@ -66,3 +66,10 @@ img {
     align-items: center;
     gap: 38px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
