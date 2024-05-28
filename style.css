@@ -73,3 +73,36 @@ img {
     align-items: center;
     color: #E5E7EB;
 }
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+  }
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.top-header {
+    margin: 32px;
+}
+
+.header-logo  {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
