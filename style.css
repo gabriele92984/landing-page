@@ -1,17 +1,15 @@
-* {
+html {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
   }
-
-*, *:before, *:after {
+  *, *:before, *:after {
     box-sizing: inherit;
-}
+  }
 
 body { 
     font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    width: auto;
 }   
 
 .header {
@@ -25,9 +23,23 @@ body {
     height: 450px;
 }
 .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     height: 400px;
+    padding: 0 100px;
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
 }
+
+.cit {
+    font-weight: 700;
+    align-self: flex-end;
+}
+
 .sign-container {
     background-color: #3882F6;
     color: white;
