@@ -6,10 +6,10 @@ html {
   }
 
 body { 
-    font-family: Roboto, Verdana, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
-    max-width: 1500px;
+    max-width: 1300px
 }   
 
 .header {
@@ -30,13 +30,19 @@ body {
     background-color: #E5E7EB;
     height: 400px;
     padding: 0 100px;
-    font-size: 32px;
+    
+}
+
+.quote {
+    text-align: justify;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 32px;
     color: #1F2937;
 }
 
 .cit {
+    font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
 }
@@ -44,7 +50,7 @@ body {
 .sign-main-container {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 150px;
     height: 350px;
 }
 
@@ -56,10 +62,6 @@ body {
     color: white;
     border-radius: 8px;
     height: 200px;
-}
-
-#sign-bottom{
-    border-color: white;
 }
 
 .footer {
@@ -92,7 +94,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: first baseline;
-    gap: 38px;
+    gap: 64px;
 }
 
 .footer {
@@ -104,6 +106,8 @@ img {
 
 .top-header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
     margin-top: 24px;
     margin-bottom: 80px;
@@ -140,6 +144,12 @@ a {
     color: #F9FAF8;
 }
 
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
  .hero-main-text {
     font-size: 48px;
     font-weight: 900;
@@ -167,17 +177,40 @@ a {
     height: 100%;
  }
 
- button {
+#top-button {
+    align-self: flex-start;
     cursor: pointer;
     padding: 6px 24px;
     border-radius: 8px;
-    margin-top: 8px;
-    background-color: royalblue;
-    color: #F9FAF8;
-    border-color: royalblue;
- }
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    border-color: #1F2937;
+    border-style: solid;
+}
+
+#bottom-button {
+    align-self: flex-start;
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    border-color:#F9FAF8;
+    border-style: solid;
+}
 
  #img-place {
-    width: 400px;
     height: auto;
+    width: 400px;
+ }
+
+ .call-bold {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .call-light-gray {
+    color: #E5E7EB;
  }
