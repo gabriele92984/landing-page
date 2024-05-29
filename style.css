@@ -126,9 +126,8 @@ a {
  .bottom-left {
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 480px;
-    /*background-color: lightblue;*/
+    height: 100%;
  }
 
  .bottom-right {
@@ -136,9 +135,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 400px;
-    /*background-color: lightblue;*/
+    height: 100%;
  }
 
  button {
@@ -149,4 +147,9 @@ a {
     background-color: royalblue;
     color: #F9FAF8;
     border-color: royalblue;
+ }
+
+ #img-place {
+    width: 400px;
+    height: auto;
  }
